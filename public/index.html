@@ -1,43 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+<head>
+  <link rel="icon" type="image/x-icon" href="heba.jpg">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Heba alsamaheen">
+  <meta name="keywords" content="HTML, CSS">
+  <title>Portfolio Heba</title>
+  <link rel="stylesheet" href="port2css.css">
+  <style>
+    .container {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      padding: 33px;
+      font-size: small;
+      justify-content: space-between;
+    }
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+    .container img {
+      max-width: 100%;
+      height: auto;
+    }
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
-  </body>
+    img {
+      border-radius: 5%;
+    }
+
+    .logo {
+      margin-left: 22px;
+    }
+
+    .nn {
+      justify-content: space-between;
+    }
+
+    .myname {
+      color: rgb(226, 43, 217);
+      text-shadow: 1px 1px 2px #000000;
+      font-size: xx-large;
+    }
+
+    .myname a:hover {
+      color: #000000;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- عنصر root الذي يحتاجه React -->
+  <div id="root"></div>
+
+  
+</body>
+
 </html>

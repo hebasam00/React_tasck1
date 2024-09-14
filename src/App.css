@@ -7,6 +7,45 @@
   pointer-events: none;
 }
 
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  border: 0cap;
+  padding: 33px;
+  font-size: small;
+  justify-content: space-between;
+}
+
+.container img {
+  max-width: 100%;
+  height: auto;
+
+}
+
+img {
+  border-radius: 5%;
+}
+
+.logo {
+  margin-left: 22px;
+
+
+}
+
+.nn {
+  justify-content: space-between;
+}
+
+.myname {
+  color: rgb(226, 43, 217);
+  text-shadow: 1px 1px 2px #000000;
+  font-size: xx-large;
+}
+
+.myname a:hover {
+  color: #000000;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
